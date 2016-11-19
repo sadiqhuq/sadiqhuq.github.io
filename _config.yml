@@ -1,0 +1,56 @@
+# MIT Licensed theme: https://github.com/nandomoreirame/end2end
+# Build settings
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+gems: [jekyll-paginate]
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: 
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: "Sadiq Huq"
+description: "A blog on Computational Mechanics"
+keywords: "FEA, CAE, CFD, turbulence, computational, mechanics"
+url: https://sadiqhuq.github.io
+baseurl: ""
+# baseurl: "/sh"
+
+google_analytics: UA-87654273-1
+repo: http://github.com/sadiqhuq/sadiqhuq.github.io
+# disqus_shortname: "sadiqhuq"
+# disqus_site_shortname: "sadiqhuq"
+
+# Author settings
+author:
+  name      : Sadiq Huq
+  job       : Computational Mechanics Engineer
+  bio       : ""
+  thumb     : /images/author.jpg
+# email     : 
+# url       : 
+  github    : http://github.com/sadiqhuq
+# twitter   : http://twitter.com/
+# facebook  : http://facebook.com/
+  linkedin  : http://linkedin.com/in/sadiqhuq
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  # - slug: resume
+  #   title: Resume
+  # - slug: skills
+  #   title: Skills
+  - slug: blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+
