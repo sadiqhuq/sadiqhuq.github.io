@@ -32,7 +32,7 @@ repo: http://github.com/sadiqhuq/sadiqhuq.github.io
 author:
   name      : Sadiq Huq
   job       : Computational Mechanics Engineer
-  bio       : ""
+  bio       : "Berechnungsingenieur | கணக்கீட்டு இயக்கவியல் பொறியாளர்"
   thumb     : /images/author.jpg
 # email     : 
 # url       : 
@@ -40,6 +40,7 @@ author:
 # twitter   : http://twitter.com/
 # facebook  : http://facebook.com/
   linkedin  : http://linkedin.com/in/sadiqhuq
+  youtube   : https://www.youtube.com/user/comflics/videos
 
 # navbar pages
 navbar:
