@@ -79,7 +79,11 @@
   <div>
    <h1 class="heroname">{{ site.data.cv.name }}</h1>
     <div class="herocontact">
+<!--	    
 <a href="mailto:{{ site.data.cv.email }}"><i class="fa fa-envelope" style="color:black;"></i> {{ site.data.cv.email }}</a>
+-->
+<a href="http://www.google.com/recaptcha/mailhide/d?k=01TeU6o32RlvnMHtCINDfYjA==&amp;c=zFD3-TiWWiuVJuRrhHC2IeJ8sMEr-ssp-ynk1a6covg=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01TeU6o32RlvnMHtCINDfYjA\x3d\x3d\x26c\x3dzFD3-TiWWiuVJuRrhHC2IeJ8sMEr-ssp-ynk1a6covg\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address"><i class="fa fa-envelope" style="color:black;"></i>s.....@tum.de</a>
+
 <ul class="social">
 <li><a href="{{ site.author.linkedin }}" target="_blank"><i class="fa fa-linkedin" style="color:#0077B5;"></i></a></li>
 <li><a href="{{ site.author.github }}" target="_blank"><i class="fa fa-github" style="color:black;"></i></a></li>
@@ -201,18 +205,20 @@
 
     <hr/>
 
+    
     {% if site.data.cv.certsAndAwards %}
        <h2>Certifications and Awards</h2>
        {% for item in site.data.cv.certsAndAwards %}
        <h4>{{ item.name }}, {{ item.year }}</h4>
        {% endfor %}
+    <hr/>
     {% endif %}
 
-    <hr/>
 
     {% if site.data.cv.clearence %}
     <h2>Clearances</h2>
     <h4>{{ site.data.cv.clearance.name }}</h4>
+    <hr/>
     {% endif %}
 
 </div>
