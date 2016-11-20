@@ -48,10 +48,6 @@ author:
 navbar:
   - slug: cv
     title: CV
-  # - slug: resume
-  #   title: Resume
-  # - slug: skills
-  #   title: Skills
   - slug: blog
     title: Blog
 
