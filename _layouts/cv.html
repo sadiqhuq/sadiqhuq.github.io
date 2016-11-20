@@ -58,17 +58,19 @@
 
 
 <div class="container">
-        {{ content }}
-    <div>
-        <p align="center"><h1>{{ site.data.cv.name }}</h1></p>
-        <span class="fa fa-envelope"></span><a href="mailto:{{ site.data.cv.email }}"> {{ site.data.cv.email }}</a><br/>
-        <span class="fa fa-home"></span><a href="http://{{ site.data.cv.home }}"> {{ site.data.cv.home }}</a>
-<!--
-        <span class="glyphicon glyphicon-home"></span><a href="http://{{ site.data.cv.home }}"> {{ site.data.cv.home }}</a><br/>
-        <span class="glyphicon glyphicon-envelope"></span><a href="mailto:{{ site.data.cv.email }}"> {{ site.data.cv.email }}</a>
--->
-    </div>
-    <hr/>
+ {{ content }}
+  <div>
+   <h1>{{ site.data.cv.name }}</h1>
+<ul class="social">
+<li><a href="mailto:{{ site.data.cv.email }}"><i class="fa fa-envelope" style="color:black;"></i> {{ site.data.cv.email }}</a></li>
+<li><a href="{{ site.author.linkedin }}" target="_blank"><i class="fa fa-linkedin" style="color:#0077B5;"></i></a></li>
+<li><a href="{{ site.author.github }}" target="_blank"><i class="fa fa-github" style="color:black;"></i></a></li>
+<li><a href="{{ site.author.youtube }}" target="_blank"><i class="fa fa-youtube" style="color:#e52d27;"></i></a></li>
+<li><a href="{{ site.author.stackoverflow }}" target="_blank"><i class="fa fa-stack-overflow" style="color:orange;"></i></a></li>
+</ul>	
+  </div>
+
+ <hr/>
 
 
     <h2>Summary</h2>
