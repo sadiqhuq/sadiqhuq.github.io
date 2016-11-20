@@ -1,18 +1,30 @@
 <!DOCTYPE html>
+<!-- Theme adapted from: https://github.com/spitimage/jekyll-cv-generator -->
 <html>
   {% include head.html %}
   <head>
-<!-- Theme Source: https://github.com/spitimage/jekyll-cv-generator -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<!--
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" media="all"/>
-    <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
--->
+
     <style>
+	div.herocontact {
+		text-align: center;
+	}
+	h1.heroname {
+		text-align: center;
+		line-height: 100%;
+	}
         h1 {
          /* font-family: 'Lusitana', serif; */
-            font-size: 3em;
+            font-size: 2.0em;
         }
+        h2 { 
+	     font-size: 1.5em; 
+	     color: #6e7684; 
+	   }
+        h3 { font-size: 1.25em; }
+        h4 { font-size: 1.00em; }
+        h5 { font-size: 0.75em; }
+
         .skills {
             margin-right: 1em;
         }
@@ -28,6 +40,11 @@
                 content: "";
             }
         }
+
+	p.summary {
+		color: #000000;
+	        font-size: 1.25em; 
+	}
 
 	p.skill {
 		line-height: 160%;
@@ -60,21 +77,31 @@
 <div class="container">
  {{ content }}
   <div>
-   <h1>{{ site.data.cv.name }}</h1>
+   <h1 class="heroname">{{ site.data.cv.name }}</h1>
+    <div class="herocontact">
+<a href="mailto:{{ site.data.cv.email }}"><i class="fa fa-envelope" style="color:black;"></i> {{ site.data.cv.email }}</a>
 <ul class="social">
-<li><a href="mailto:{{ site.data.cv.email }}"><i class="fa fa-envelope" style="color:black;"></i> {{ site.data.cv.email }}</a></li>
 <li><a href="{{ site.author.linkedin }}" target="_blank"><i class="fa fa-linkedin" style="color:#0077B5;"></i></a></li>
 <li><a href="{{ site.author.github }}" target="_blank"><i class="fa fa-github" style="color:black;"></i></a></li>
 <li><a href="{{ site.author.youtube }}" target="_blank"><i class="fa fa-youtube" style="color:#e52d27;"></i></a></li>
 <li><a href="{{ site.author.stackoverflow }}" target="_blank"><i class="fa fa-stack-overflow" style="color:orange;"></i></a></li>
 </ul>	
+    </div>
   </div>
 
  <hr/>
 
 
     <h2>Summary</h2>
-    <p> {{ site.data.cv.summary.text }}</p>
+    <p class="summary">
+       {{ site.data.cv.summary.text }}
+       <ul>
+       <li>Specialties:</li>
+       <li>FEA: Stress Analysis, Explicit Dynamics</li>
+       <li>CFD: Aerodynamics / Heat Transfer in Turbulent Flows</li>
+       <li>Programming: 5 years of experience in Scientific High Performance Computing</li>
+       </ul>
+    </p>
 
     <hr/>
 
@@ -91,7 +118,7 @@
 
     {% for skill in site.data.cv.skills %}
 
-       <h5>{{ skill.name }}</h5>
+       <h3>{{ skill.name }}</h3>
        <p class="skill">
        {% for item in skill.items %}
 <!--    
