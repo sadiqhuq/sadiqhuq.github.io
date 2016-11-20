@@ -3,9 +3,9 @@
   {% include head.html %}
   <head>
 <!-- Theme Source: https://github.com/spitimage/jekyll-cv-generator -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<!--
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" media="all"/>
+<!--
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
 -->
     <style>
@@ -58,12 +58,12 @@
 
 <div class="container">
     <div class="text-center nohref"><h1>{{ site.data.cv.name }}</h1>
+<!--
         <span class="fa fa-home"></span><a href="http://{{ site.data.cv.home }}"> {{ site.data.cv.home }}</a><br/>
         <span class="fa fa-envelope"></span><a href="mailto:{{ site.data.cv.email }}"> {{ site.data.cv.email }}</a>
-<!--
+-->
         <span class="glyphicon glyphicon-home"></span><a href="http://{{ site.data.cv.home }}"> {{ site.data.cv.home }}</a><br/>
         <span class="glyphicon glyphicon-envelope"></span><a href="mailto:{{ site.data.cv.email }}"> {{ site.data.cv.email }}</a>
--->
     </div>
 
     <h2>Summary</h2>
@@ -84,10 +84,7 @@
 
     <h5>{{ skill.name }}</h5>
     {% for item in skill.items %}
-<!--    
     <span class="label label-default skills"> {{ item.name }} </span>
--->    
-    <span class="tag"> {{ item.name }} </span>
     {% endfor %}
 
     {% endfor %}
