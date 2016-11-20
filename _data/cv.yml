@@ -1,0 +1,86 @@
+name: Sadiq Huq
+home: sadiqhuq.github.io
+email: sadiqhuq@gmail.com
+summary:
+ text: Computational Mechanics Engineer
+
+# objective:
+#  text: 
+
+skills:
+ - name: Finite Element Analysis (FEA)
+   items:
+    - name: Ansys
+#   - name: LS-Dyna
+#   - name: Abaqus
+ - name: Computaional Fluid Mechanics (CFD)
+   items:
+    - name: Ansys
+    - name: Fluent
+    - name: CFX
+    - name: OpenFOAM
+ - name: CAD repair & Mesh Generation
+   items:
+    - name: HyperMesh
+    - name: Ansys Meshing
+    - name: Design Modeler
+    - name: ICEM CFD
+ - name: Post-Processing
+   items:
+    - name: EnSight
+    - name: Paraview
+ - name: Programming
+   items:
+    - name: Python
+    - name: MATLAB
+    - name: BASH
+    - name: FORTRAN
+    - name: C++
+    - name: MPI
+
+education:
+ colleges:
+  - name: Technical University of Munich (TUM)
+    link: http://www.come.tum.de/
+    year: 2009-2012
+    degree: M.Sc. Computational Mechanics
+# colleges:
+#  - name: Universiti Teknologie PETRONAS
+#    link: 
+#    year: 2004-2007
+#    degree: B.Eng.(Hons.) Mechanical Engineering
+
+
+professional:
+ - name: Karlsruhe Inst. of Technology (KIT)
+   link: http://kit.edu
+#  location: 
+   start: 01/2013
+   end: Present
+   title: PhD Candidate
+   summary: Development of high resolution LES tools for assessment of turbulent flux measurements.
+#  projects:
+#
+#   - name:
+#     description: 
+#     skills:
+#      - 
+#      - 
+
+ - name: Fraunhofer-Gesellschaft
+   link: 
+   location:
+   start: 05/2012
+   end: 12/2012
+   title: Scientific Assitant
+   summary: The Modeling and Simulation research group at the Institute for Building Physics develops energy efficient concepts for thermal comfort in buildings, aircrafts and automobiles.
+
+
+# certsAndAwards:
+#  - name:
+#    year:
+# 
+# clearance:
+#  name: 
+
+

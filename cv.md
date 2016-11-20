@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CV
+layout: cv
+title: Sadiq Huq's CV
 permalink: /cv/
 ---
 
