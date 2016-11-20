@@ -17,7 +17,13 @@ layout: default
     <ul class="features">
   {% endif %}  
   <li>
-  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+     <!--
+     <div>
+     <span style="float: left;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+      <span style="float: right;">{{ post.date | date_to_string | date: '%b %d' }}</span>
+    </div>
+      -->
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
 
   {% if forloop.last %}
@@ -32,6 +38,9 @@ layout: default
 
 <hr>
 
+<!--
 <div class="center">
   <a href="/tags/" title="List posts by Tag">Sort by tags</a>
 </div>
+-->
+-->
