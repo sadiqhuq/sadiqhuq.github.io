@@ -8,10 +8,14 @@ layout: home
 
     <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot">
     <h2>Servus!</h2>
-    <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
-    <!--<h3>{{ site.author.bio.all }}</h3>-->
-    <!--<h3 class='tamil'>{{ site.author.bio }}</h3>-->
-    <h3><span>{{ site.author.bio.DE }} | </span><span class='tamil'>{{ site.author.bio.TA }}</span></h3>
+    <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job.EN }}</em>.</h3>
+
+    <!--<h3>{{ site.author.job.DETA }}</h3>-->
+    <!--<h3 class='tamil'>{{ site.author.job }}</h3>-->
+    <h3><span>{{ site.author.job.DE }} | </span><span class='tamil'>{{ site.author.job.TA }}</span></h3>
+
+    <!--<h3>{{ site.author.bio }}</h3>-->
+
     <a href="{{ '/cv' | prepend: site.baseurl }}" class="btn btn-ghost">CV</a>
     <a href="{{ '/blog' | prepend: site.baseurl }}" class="btn btn-ghost">Blog</a>
 

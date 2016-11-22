@@ -32,11 +32,12 @@ disqus_site_shortname: "huq"
 # Author settings
 author:
   name      : Sadiq Huq
-  job       : Computational Mechanics Engineer
-  bio       : 
-   all      : "Berechnungsingenieur | கணக்கீட்டு இயக்கவியல் பொறியாளர்"
+  job       :
+   EN       : Computational Mechanics Engineer
    DE       : "Berechnungsingenieur"
    TA       : "கணக்கீட்டு இயக்கவியல் பொறியாளர்"
+   DETA     : "Berechnungsingenieur | கணக்கீட்டு இயக்கவியல் பொறியாளர்"
+  bio       : 
   thumb     : /images/webpage/avatar.jpg
 # email     : 
 # url       : 
