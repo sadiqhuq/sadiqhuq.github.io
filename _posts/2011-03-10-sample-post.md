@@ -94,6 +94,19 @@ Make any link standout more when applying the `.btn` class.
 <div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
+## Badges in Bourbon
+
+{% highlight html %}
+<a href="#" class="btn btn-success">Success Button</a>
+{% endhighlight %}
+
+<div markdown="0"><a href="#" class="badge-default">Primary Button</a></div>
+<div markdown="0"><a href="#" class="badge-success">Success Button</a></div>
+<div markdown="0"><a href="#" class="badge-alert">Warning Button</a></div>
+<div markdown="0"><a href="#" class="badge-error">Danger Button</a></div>
+<div markdown="0"><a href="#" class="badge-notice">Info Button</a></div>
+
+
 ## Notices
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.

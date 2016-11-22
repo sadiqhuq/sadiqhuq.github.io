@@ -7,8 +7,17 @@
 
 /* OVERRIDE */
 
+// Tags
 @import "custom/tags";
 
+// Tamil
+// .tamilcat p{ font-family: 'Catamaran', serif; }
+//.tamilcat h3 { font-family: 'Catamaran', serif; }
+.tamilcat {   
+// font-family: "Catamaran", sans-serif !important;
+   font-family: "notosanstamil", sans-serif !important;
+   color:#ff00ff;
+}
 /* avatar author image*/
   .dot {
     padding: 0px;
