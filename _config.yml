@@ -3,7 +3,9 @@
 permalink   : /blog/:year/:title/
 markdown    : kramdown
 highlighter : rouge
-gems: [jekyll-paginate]
+gems: 
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 paginate: 3
 paginate_path: "/blog/page/:num/"
