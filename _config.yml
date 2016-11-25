@@ -6,17 +6,20 @@ highlighter : rouge
 gems: 
   - jekyll-paginate
   - jekyll-seo-tag
-
+#
 paginate: 3
 paginate_path: "/blog/page/:num/"
 comments: true
-
+#
 source: 
 destination: _site
 sass:
   sass_dir: _scss
   style: compressed # expanded
-
+#
+timezone:           Europe/Munich
+locale:             en_IN
+#
 # SEO settings
 title: "Sadiq Huq"
 description: "A blog on Computational Mechanics"
@@ -25,12 +28,12 @@ url: https://sadiqhuq.github.io
 baseurl: ""
 # baseurl: "/sh"
 host: 0.0.0.0
-
+#
 google_analytics: UA-87654273-1
 repo: http://github.com/sadiqhuq/sadiqhuq.github.io
 disqus_shortname: "huq"
 disqus_site_shortname: "huq"
-
+#
 # Author settings
 author:
   name      : Sadiq Huq
@@ -50,13 +53,13 @@ author:
   xing      : https://www.xing.com/profile/Sadiq_Huq
   youtube   : https://www.youtube.com/user/comflics/videos
   stackoverflow: http://stackoverflow.com/users/711499/sadiq-huq 
-
+#
 # navbar pages
 navbar:
   - slug: cv
     title: CV
   - slug: blog
     title: Blog
-
+#
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
-
+#
