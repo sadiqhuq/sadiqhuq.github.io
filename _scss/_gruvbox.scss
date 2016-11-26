@@ -3,51 +3,53 @@ $gruv-prime: #ebdbb2;
 $gruv-litstr: #b8bb26;
 $gruv-litnum: #d3869b;
 $gruv-litkey: #fe8019;
+
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
 .highlight {
-   @extend %clearfix;
-   padding: 0;
-   margin: {
-      top: 1.2em;
-      bottom: 1.2em;
-   };
-   
-   &, .hll, pre, code {
-      border: none;
+    @extend %clearfix;
+    margin: 0;
+    pre code {
+      color: $gruv-prime;
+    }
+
+    .hll, pre, code {
+      font-family: "Source Code Pro", "Consolas", "Bitstream Vera Sans Mono";
+      font-size: 0.9em;
       background-color: $gruv-bg !important;
       color: $gruv-prime;
-      margin: 0;
-      padding: 0.2em;
+      line-height: 130% !important;
+    }
+    code {
+      color: $gruv-prime;
+      padding: 3px 5px;
+      margin: 0 2px;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+    pre { // only apply for code blocks
+      overflow: auto;
+      display: block;
+      padding: 1em;
+      margin: 0 0 1em;
+      word-break: break-all;
+      word-wrap: break-word;
+      border-radius: 0;
+      font-weight: normal;
+    }
+    pre code {
+      background: transparent;
       white-space: pre;
-      overflow-x: auto;
-      margin-bottom: 0;
-      font-family: "Source Code Pro", "Consolas", "Deja Vu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", "Courier New", "monospace";
-      font-weight: $font-weight-normal !important;
-      font-size: 13px;
-      line-height: 150%;
-   }
-   
-   pre {
-      background: $gruv-bg;
-      background-color: $gruv-bg !important;
+      overflow: auto;
+      word-wrap: normal;
       color: $gruv-prime;
-      word-break: inherit;
-      word-wrap: inherit;
-      
-      &, code {
-      	color: $gruv-prime;
+      span {
+        word-break: break-all;
       }
-      
-      code {
-      	white-space: pre;
-      	padding: 0 !important;
-      
-      	//* {
-      	//     white-space: nowrap; // this sets all children inside to nowrap
-      	//   }
-      }
-   }
-   
-   // gruv
+    }
+
+  
+   // gruvbox
    // Source: https://github.com/daveyarwood/gruv-pygments
    //    { background: $gruv-bg; color: $gruv-prime; background-color: $gruv-bg }
    .hll { background-color: #ffffcc }
