@@ -6,6 +6,9 @@ highlighter : rouge
 gems: 
   - jekyll-paginate
   - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
 #
 paginate: 3
 paginate_path: "/blog/page/:num/"
@@ -18,7 +21,7 @@ sass:
   style: compressed # expanded
 #
 timezone:           Europe/Munich
-locale:             en_IN
+locale:             en_US
 #
 # SEO settings
 title: "Sadiq Huq"

@@ -3,6 +3,7 @@
 source 'http://rubygems.org'
 
 gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll-seo-tag'
 
 # group :development do
 #   gem 'rake', '~>10.5'
