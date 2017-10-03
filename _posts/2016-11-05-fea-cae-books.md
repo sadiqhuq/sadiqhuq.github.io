@@ -15,15 +15,12 @@ Listed in order of my preference.
 #### Fundamentals of Finite Element Method
   
 ####  Practical FEA  
-1. [Practical Aspects of Finite Element Simulation](https://altairuniversity.com/free-ebooks-2/free-ebook-practical-aspects-of-finite-element-simulation-a-study-guide/)  
-    This FREE book concisely covers everything-you-need-to-know. Just flipping through this book you will get an idea of how many nodes are needed to capture a hole, the basics of geometry clean-up, picking the right element type for the analysis, the choice of boundary conditions etc. Though the examples are illustrated with Altair products, the knowledge is transferable to other FEA tools.  
   
-    [There are also other books from Altair on Crash Analysis, Multi-Body Simulations](https://altairuniversity.com/free-ebooks-2/)  
+1. [Practical Aspects of Finite Element Simulation](https://altairuniversity.com/free-ebooks-2/free-ebook-practical-aspects-of-finite-element-simulation-a-study-guide/)  
+   * This FREE book concisely covers everything-you-need-to-know. Just flipping through this book you will get an idea of how many nodes are needed to capture a hole, the basics of geometry clean-up, picking the right element type for the analysis, the choice of boundary conditions etc. Though the examples are illustrated with Altair products, the knowledge is transferable to other FEA tools.  
+  
+   * [There are also other good books from Altair on Crash Analysis, Multi-Body Simulations](https://altairuniversity.com/free-ebooks-2/)  
   
 + [Building better products with finite element analysis](https://www.worldcat.org/title/building-better-products-with-finite-element-analysis/oclc/925762193&referer=brief_results)  
   
 + [Practical Stress Analysis with Finite Elements](https://www.worldcat.org/title/practical-stress-analysis-with-finite-elements/oclc/924693248&referer=brief_results)  
-  
-+ FEM für Praktiker
-+ [Composite Ansys](FEA-Composite-Ansys-Barbero-Ever-201FEA-Composite-Ansys-Barbero-Ever-20133)
-
