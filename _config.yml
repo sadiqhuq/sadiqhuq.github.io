@@ -26,7 +26,7 @@ locale:             en_US
 # SEO settings
 title: "Sadiq Huq"
 description: "A blog on Computational Mechanics"
-keywords: "FEA, CAE, CFD, turbulence, computational, mechanics"
+keywords: "FEA, CAE, CFD, turbulence, computational, mechanics, deep, machine, learning, data, science, artificial, intelligence"
 url: https://sadiqhuq.github.io
 baseurl: ""
 # baseurl: "/sh"
