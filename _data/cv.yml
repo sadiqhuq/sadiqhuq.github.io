@@ -18,11 +18,11 @@ skills:
  - name: Computaional Fluid Mechanics (CFD)
    items:
     - name: Fluent
-    - name: CFX
+#   - name: CFX
     - name: OpenFOAM
  - name: CAD repair & Mesh Generation
    items:
-    - name: HyperMesh
+#   - name: HyperMesh
     - name: Ansys Meshing
     - name: Design Modeler
     - name: ICEM CFD
