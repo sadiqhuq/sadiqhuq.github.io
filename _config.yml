@@ -39,7 +39,8 @@ disqus_site_shortname: "huq"
 #
 # Author settings
 author:
-  name      : Sadiq Huq
+  name      : Sadiq Umar Abdul Huq
+  nameshort : Sadiq Huq
   job       :
    EN       : Computational Mechanics Engineer
    DE       : "Berechnungsingenieur"
